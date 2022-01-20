@@ -7,15 +7,21 @@ div {
   font-size: 1em;
   padding: 3.125em;
   margin: 0.625em;
-  width: 12.5em;
+  width: 17.5em;
   height: 12.5em;
   background-color: tomato;
 }
 #hej {
   background-color: aqua;
+  float: left;
 }
 .hejdå {
   background-color: darkslategrey;
+  float: left;
+}
+.hejigen {
+  background-color: tomato;
+  float: left;
 }
 .redBorder {
   border-style: double;
@@ -47,4 +53,5 @@ li a:hover:not(.active) {
 }
 .active {
   background-color: beige;
+  float: right;
 }
