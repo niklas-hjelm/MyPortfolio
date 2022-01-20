@@ -1,0 +1,23 @@
+body {
+  font-size: 100%;
+}
+div {
+  border-style: dashed;
+  border-width: 0.625em;
+  font-size: 1em;
+  padding: 3.125em;
+  margin: 0.625em;
+  width: 12.5em;
+  height: 12.5em;
+  background-color: tomato;
+}
+#hej {
+  background-color: aqua;
+}
+.hejdå {
+  background-color: darkkhaki;
+}
+.redBorder {
+  border-style: double;
+  border-color: red;
+}
