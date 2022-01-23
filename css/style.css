@@ -1,28 +1,25 @@
 body {
   font-size: 100%;
 }
-div {
-  border-style: dashed;
-  border-width: 0.625em;
-  font-size: 1em;
-  padding: 3.125em;
-  margin: 0.625em;
-  width: 17.5em;
-  height: 12.5em;
+
+.flex-item {
+  border-style: solid;
+  border-width: 2px;
+  font-size: 5em;
+  text-align: center;
+  align-content: center;
   background-color: tomato;
 }
-#hej {
+.hej {
   background-color: aqua;
-  float: left;
 }
 .hejdå {
   background-color: darkslategrey;
-  float: left;
 }
 .hejigen {
   background-color: tomato;
-  float: left;
 }
+
 .redBorder {
   border-style: double;
   border-color: red;
@@ -53,5 +50,4 @@ li a:hover:not(.active) {
 }
 .active {
   background-color: beige;
-  float: right;
 }
